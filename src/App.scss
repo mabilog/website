@@ -7,10 +7,12 @@
     position: relative;
     top: 70px;
     background-color: red;
-    
+    scroll-snap-type: y mandatory;
+
     > *{
-      width: 100vh;
+      width: 100%;
       height: calc(100vh - 70px);
+      scroll-snap-align: start;
     }
   }
 }
