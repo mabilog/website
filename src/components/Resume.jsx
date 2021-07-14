@@ -3,7 +3,7 @@ import './resume.scss';
 
 const Resume = () => {
   return (
-    <div className="resume">
+    <div className="resume" id='resume'>
       This is the Resume Component
     </div>
   )

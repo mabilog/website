@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Navbar from './components/Navbar.jsx';
+import Home from './components/Home.jsx';
 import Resume from './components/Resume.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
@@ -12,6 +13,7 @@ function App() {
     <div className="app">
       <Navbar/>
       <div className="sections">
+        <Home/>
         <Resume/>
         <Projects/>
         <Contact/>

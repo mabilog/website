@@ -3,7 +3,7 @@ import './projects.scss';
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id='projects'>
       This is the Projects Component
     </div>
   )
