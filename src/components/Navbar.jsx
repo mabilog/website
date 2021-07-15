@@ -1,9 +1,15 @@
 import React from 'react'
 import './navbar.scss';
 import {Person, Mail} from '@material-ui/icons'
-const Navbar = () => {
+
+const Navbar = ({ menuOpen, setMenuOpen }) => {
+  
+  const handleClick = () => {
+    setMenuOpen(!menuOpen)
+  }
+
   return (
-    <div className="navbar active">
+    <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href='#home' className='logo'>mabilog.</a>
@@ -18,14 +24,10 @@ const Navbar = () => {
             <Mail className='icon icon__mail pInfo'/>
             <span id="pInfo">g.angelo.m@gmail.com</span>
           </div>
-          <div className="hamburger">
+          <div className="hamburger" onClick={handleClick}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
-
-            {/* <a href="#resume" className="scroll-links">Resume</a>
-            <a href="#projects" className="scroll-links">Projects</a>
-            <a href="#contact" className="scroll-links">Contact</a> */}
           </div>
         </div>
       </div>
