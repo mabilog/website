@@ -1,3 +1,5 @@
+@import './global.scss';
+
 .app{
   height: 100vh;
 
@@ -19,6 +21,19 @@
     }
     &.active{
       background-color: rgba(0, 0, 0, 0.822);
+    }
+  }
+}
+
+@media screen and (max-width: $breakpointmobile) {
+  .app{
+    .sections{
+      height: calc(100vh - 100px);
+      top: 100px;
+
+       >*{
+         height: calc(100vh - 100px);
+       }
     }
   }
 }

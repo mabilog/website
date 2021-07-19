@@ -13,10 +13,10 @@ const Sidebar = ({menuOpen, setMenuOpen}) => {
           <a href="#home" className="sidebar__link" onClick={handleClick}>mabilog.</a>
         </li>
         <li>
-          <a href="#resume" className="sidebar__link" onClick={handleClick}>Resume</a>
+          <a href="#projects"  className="sidebar__link" onClick={handleClick}>Projects</a>
         </li>
         <li>
-          <a href="#projects"  className="sidebar__link" onClick={handleClick}>Projects</a>
+          <a href="#resume" className="sidebar__link" onClick={handleClick}>Resume</a>
         </li>
         <li>
           <a href="#contact"  className="sidebar__link" onClick={handleClick}>Contact</a>

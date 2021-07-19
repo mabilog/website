@@ -45,7 +45,7 @@
           height: 3px;
           background-color: #fff;
           transform-origin: left;
-          transition: all 1s ease;
+          transition: all .75s ease;
 
           .line3{
             display: flex;
@@ -100,3 +100,18 @@
   }
 }
 
+@media screen and (max-width: $breakpointmobile){
+  .navbar{
+    height: 100px;
+    padding-top: 20px;
+
+    .wrapper{
+      .right{
+        .personal__info{
+          display: none;
+        }
+      }
+    }
+    
+  }
+}

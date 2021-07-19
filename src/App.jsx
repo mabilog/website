@@ -18,8 +18,8 @@ function App() {
       <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className={"sections " + (menuOpen && "active")}>
         <Home/>
-        <Resume/>
         <Projects/>
+        <Resume/>
         <Contact/>
       </div>
     </div>

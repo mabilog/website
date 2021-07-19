@@ -1,3 +1,5 @@
+@import '../global.scss';
+
 .home {
  background-color: #fff;
  display: flex;
@@ -19,22 +21,52 @@
      position: relative;
      height: 300px;
      h1{
+       flex-wrap: wrap;
        font-size: 70px;
        font-weight: 700;
+       max-width: 550px;
      }
-     p{
-       font-size: 20px
+     h3{
+       align-items: center;
+       justify-content: center;
+       text-align: center;
      }
-     
-     a{
-       display: flex;
-       text-decoration: none;
-       position: absolute;
-       right: 0;
-       color: inherit;
-       margin-top: 15px;
-       width: max-content;
-     }
-   }
+    }
+    a{
+      display: flex;
+      text-decoration: none;
+      position: absolute;
+      right: 0;
+      color: inherit;
+      margin-top: 15px;
+      width: max-content;
+      border: 3px solid blue;
+      border-radius: 5px;
+      color: $mainColor;
+      font-weight: 700;
+      padding:10px;
+      transition: .5s ease;
+      &:hover{
+        background-color: blue;
+        color:$textColor;
+      }
+    }
  }
+}
+
+@media screen and (max-width: $breakpointmobile){
+  .home{
+    .center{
+      display: flex;
+      flex-direction: column;
+     .center__right{
+       padding:50px 0;
+
+       h1{
+         font-size: 40px;
+         text-align: center;
+       }
+     }
+    }
+  }
 }
