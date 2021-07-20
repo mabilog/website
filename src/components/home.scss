@@ -44,7 +44,7 @@
       border-radius: 5px;
       color: $mainColor;
       font-weight: 700;
-      padding:10px;
+      padding: 10px;
       transition: .5s ease;
       &:hover{
         background-color: blue;
@@ -57,8 +57,6 @@
 @media screen and (max-width: 1226px){
   .home{
     .center{
-      // height: 100%;
-      // width: 600px;
       .center__right{
         min-height: 380px;
       }
