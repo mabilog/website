@@ -5,6 +5,7 @@
   width: 300px;
   height: 100vh;
   background-color: $mainColor;
+  color: $textColor;
   position: fixed;
   top: 70px;
   right: -300px;
@@ -13,11 +14,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  
+  // justify-content: center;
+  top: 100px;
+
   ul{
     margin: 0;
-    padding: 0;
+    padding: 50px;
     list-style: none;
     font-size: 40px;
     color: inherit;
@@ -36,23 +38,5 @@
 
   &.active {
     right: 0;
-    background-color: #fff;
-    color: $mainColor;
   }
-  // .sidebar__list{
-  //   padding: 10px;
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: space-between;
-  //   align-items: center;
-    
-  //   .sidebar__link{
-  //     font-size: 24px;
-  //     color: $mainColor;
-  //     text-decoration: none;
-  //     font-weight: 700;
-  //     display: flex;
-  //     gap: 10px;
-  //   }
-  // }
 }

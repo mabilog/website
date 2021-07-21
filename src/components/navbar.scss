@@ -17,7 +17,6 @@
     justify-content: space-between;
     text-decoration: none;
     color: inherit;
-    
     .left{
 
       .logo{
@@ -28,10 +27,15 @@
       }
     }
 
+    .icon{
+      display:none;
+    }
+
     .right {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      position: relative;
 
       a{
         color: white;
@@ -42,27 +46,8 @@
   }
 
   &.active {
-    background-color: #fff;
-    color: #24252a;
-
-    .hamburger{
-      span{
-        &:first-child{
-          background-color: $mainColor;
-          transform: rotate(45deg) translate(1px);
-        }
-        &:nth-child{
-          opacity:0;
-        }
-        &:last-child{
-          background-color: $mainColor;
-          transform: rotate(-45deg);
-
-        }
-
-      }
-
-    }
+    background-color: $mainColor;
+    color: $textColor;
   }
 }
 
@@ -72,12 +57,19 @@
     padding-top: 20px;
 
     .wrapper{
-      .right{
-        .personal__info{
-          display: none;
+      .icon{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 45px;
+          transition: all 1s ease;
         }
+
+      .right{
+        display: none;
       }
     }
-    
   }
+    
 }
+
