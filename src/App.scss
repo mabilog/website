@@ -34,6 +34,16 @@
        >*{
          height: calc(100vh - 100px);
        }
+
+       .socials{
+         width: auto;
+         height: auto;
+         position: absolute;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         bottom: 20px;
+       }
     }
   }
 }
