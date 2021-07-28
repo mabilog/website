@@ -2,7 +2,6 @@
 
 .app{
   height: 100vh;
-
   .sections{
     width: 100%;
     height: calc(100vh - 70px);
@@ -27,6 +26,7 @@
 
 @media screen and (max-width: $breakpointmobile) {
   .app{
+
     .sections{
       height: calc(100vh - 100px);
       top: 100px;
@@ -35,15 +35,21 @@
          height: calc(100vh - 100px);
        }
 
-       .socials{
-         width: auto;
-         height: auto;
-         position: absolute;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         bottom: 20px;
-       }
+      //  .socials{
+      //    display: flex;
+      //    justify-content: center;
+      //    align-items:center;
+      //    position: absolute;
+      //    bottom: 20px;
+      //    left: 80px;
+        //  width: auto;
+        //  height: auto;
+        //  position: absolute;
+        //  display: flex;
+        //  align-items: center;
+        //  justify-content: center;
+        //  bottom: 20px;
+      //  }
     }
   }
 }
