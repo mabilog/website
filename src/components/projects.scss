@@ -1,9 +1,10 @@
 .projects {
-  background-color: lightblue;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  position: relative;
+
   .arrow{
     cursor: pointer;
     position: absolute;
