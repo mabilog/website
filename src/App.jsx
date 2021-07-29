@@ -7,6 +7,7 @@ import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 import Sidebar from './components/Sidebar.jsx';
 
+import ProjectData from './components/ProjectData/ProjectData.jsx';
 import './App.scss';
 
 function App() {
@@ -18,7 +19,7 @@ const [menu, setMenu] = useState(false);
       <Sidebar menu={menu} setMenu={setMenu}/>
       <div className="sections">
         <Home/>
-        <Projects/>
+        <Projects slide={ProjectData}/>
         <Resume/>
         <Contact/>
       </div>

@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='contact' id='contact'>
       <div className="center">
         <div className="left">
-          <img src="../../assets/Startup life-pana.png" alt="" srcset="" />
+          <img src="../../assets/Startup life-pana.png" alt="" srcSet="" />
         </div>
         <div className="right">
           <h2>Say hi!</h2>
