@@ -8,7 +8,7 @@ const Resume = () => {
     <div className="resume">
       <h2>Gabriel Angelo Mabilog</h2>
 
-      <div className="contact">
+      <div className="resume__contact">
         <span>Montreal, Qc</span>
        <a href="https://linkedin.com/in/mabilog" target="_blank" rel="noreferrer noopener"><LinkedInIcon className="link linkedIn"/></a>
        <div className="email">
@@ -17,12 +17,12 @@ const Resume = () => {
        </div>
       </div>
 
-      <div className="title">
+      <div className="resume__title">
         <h3>Junior Full Stack Web Developper</h3>
         <p>Focus on Desktop and Mobile Applications</p>
       </div>
 
-      <div className="education">
+      <div className="resume__education">
         <h3>Education</h3>
         <table>
           <tr>
@@ -40,7 +40,7 @@ const Resume = () => {
         </table>
       </div>
     
-      <div className="experience">
+      <div className="resume__experience">
         <h3>Experience</h3>
           <h4 className="react-projects">React Projects</h4>
             <p>
@@ -51,7 +51,7 @@ const Resume = () => {
             </p>
       </div>
 
-      <div className="skills">
+      <div className="resume__skills">
         <h3>Skills</h3>
         <p>
           HTML CSS JavaScript <br />
