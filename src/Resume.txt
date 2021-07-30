@@ -1,0 +1,31 @@
+Name: Gabriel Angelo Mabilog 
+Contact: 
+  LinkedIn
+  Email: g.angelo.m@gmail.com
+
+Junior Full Stack Web Developer
+  Focus on Desktop Applications and Mobile Applications
+
+Education: 
+  TheOdinProject 2021
+  FreeCodeCamp 2021
+  Concordia Continuing Education Bootcamp - 2020
+
+Experience:
+  React Projects
+    HTML, CSS, JavaScript,
+    API fetching
+    NodeJS, Webpack,
+    React Hooks
+
+Skills:
+  HTML CSS JavaScript
+  Sass Scss
+  React Redux NodeJS
+  Firebase MongoDB
+
+  Progress:
+    Ruby on Rails
+    Typescript
+    PHP & WordPress
+  
