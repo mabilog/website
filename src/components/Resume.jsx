@@ -6,15 +6,16 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 const Resume = () => {
   return (
     <div className="resume">
-      <h2>Gabriel Angelo Mabilog</h2>
-
-      <div className="resume__contact">
-        <span>Montreal, Qc</span>
-       <a href="https://linkedin.com/in/mabilog" target="_blank" rel="noreferrer noopener"><LinkedInIcon className="link linkedIn"/></a>
-       <div className="email">
-        <span>Email: </span>
-          <a href="mailto:g.angelo.m@gmail.com">g.angelo.m@gmail.com</a>
-       </div>
+      <div className="resume__header">
+        <h2>Gabriel Angelo Mabilog</h2>
+        <div className="resume__contact">
+          <span>Montreal, Qc</span>
+        <a href="https://linkedin.com/in/mabilog" target="_blank" rel="noreferrer noopener"><LinkedInIcon className="link linkedIn"/></a>
+        <div className="email">
+          <span>Email: </span>
+            <a href="mailto:g.angelo.m@gmail.com">g.angelo.m@gmail.com</a>
+        </div>
+        </div>
       </div>
 
       <div className="resume__title">

@@ -1,9 +1,10 @@
 .resume {
   background-color: #eee;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  .contact{
-    background-color: inherit;
+
+  .resume__header{
+    h2{
+      font-size: 60px;
+    }
   }
 }
