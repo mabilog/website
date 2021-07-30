@@ -5,9 +5,11 @@
  display: flex;
  align-items: center;
  justify-content: center;
+ height: calc(100vh - 100px);
  .center{
    display: flex;
    align-items: center;
+   justify-content: center;
    width: 1000px;
    max-width: 80%;
 
@@ -18,7 +20,7 @@
     }
     .center__right{
       // padding-top: 50px;
-      height: 350px;
+     height: 360px;
      padding-left: 5%;
      position: relative;
     //  height: 300px;
@@ -61,15 +63,15 @@
  
 }
 
-@media screen and (max-width: 1226px){
-  .home{
-    .center{
-      .center__right{
-        min-height: 380px;
-      }
-    }
-  }
-}
+// @media screen and (max-width: $breakpointlaptop){
+//   .home{
+//     .center{
+//       .center__right{
+//         min-height: 380px;
+//       }
+//     }
+//   }
+// }
 
 @media screen and (max-width: $breakpointmobile){
   .home{

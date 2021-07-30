@@ -51,6 +51,12 @@
   }
 }
 
+// @media screen and (max-width: $breakpointlaptop){
+//   .navbar{
+//     height: 70px;
+//   }
+// }
+
 @media screen and (max-width: $breakpointmobile){
   .navbar{
     height: 100px;
