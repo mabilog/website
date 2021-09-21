@@ -1,10 +1,29 @@
 .resume {
   background-color: #eee;
   display: flex;
-
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 80vw;
+  width: auto;
+  margin: auto;
+  font-size: 20px;
+  padding: 0;
   .resume__header{
+    position: absolute;
+    top: 0;
+    max-height: 20vh;
+    padding: 10px;
+
     h2{
       font-size: 60px;
+      
     }
+  }
+  .resume__items{
+
+  }
+  .resume__content {
+    max-height: 80vh;
   }
 }

@@ -31,7 +31,7 @@ const Projects = ({ slide }) => {
   
   
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <NavigateBeforeIcon className="arrow leftArrow"  onClick={prevSlide}/>
       {ProjectData.map((slide, index) => {
         
