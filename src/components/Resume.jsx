@@ -11,10 +11,10 @@ const Resume = () => {
         <div className="resume__header">
           <h2>Gabriel Angelo Mabilog</h2>
           <div className="resume__contact">
-          <span>Montreal, Qc</span>
-          <a href="https://linkedin.com/in/mabilog" target="_blank" rel="noreferrer noopener"><LinkedInIcon className="link linkedIn"/></a>
+            <span>Montreal, Qc</span>
+            <a href="https://linkedin.com/in/mabilog" target="_blank" rel="noreferrer noopener"><LinkedInIcon className="link linkedIn"/></a>
           </div>
-          <div className="email">
+          <div className="resume__email">
             <span>Email: </span>
             <a href="mailto:g.angelo.m@gmail.com">g.angelo.m@gmail.com</a>
           </div>
@@ -63,12 +63,12 @@ const Resume = () => {
               React Redux NodeJS <br />
               Firebase MongoDB
             </p>
-              <h4>Progress</h4>
-              <p>
-                PHP & WordPress <br/>
-                Ruby on Rails <br />  
-                Typescript <br />
-              </p>
+            <h4>Progress</h4>
+            <p>
+              PHP & WordPress <br/>
+              Ruby on Rails <br />  
+              Typescript <br />
+            </p>
           </div>
         </div>
       </div>

@@ -11,8 +11,8 @@
   .resume__things{
     position: relative;
     // top: -70px;
-    height: 100%;
-    width: 1000px;
+    max-height: 100%;
+    width: 800px;
     max-width: 80vw;
   }
   .resume__header{
@@ -33,29 +33,48 @@
       justify-items: center;
       font-size: 30px;
       a{
-        font-size: 24px;
-        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0D66C2;
+        width: 36px;
+        height: 36px;
+        .link{
+          font-size: 36px;
+        }
+      }      
+    }
+
+    .resume__email{
+      a{
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
       }
     }
   }
   .resume__content {
     max-height: 80vh;
-    padding: 20px;
+    margin: 20px;
     
     h3{
       font-size: 24px;
+      margin-bottom: 10px;
     }
 
     h4{
       font-size: 20px;
-      padding-bottom: 10px;
+      margin-bottom: 10px;
     }
     h5{
-      padding-bottom: 5px;
+      margin-bottom: 5px;
     }
     p {
       position: relative;
-      left: 20px;
+      margin-left: 20px;
+    }
+    table {
+      margin-left: 20px;
     }
     tr{
       position: relative;
@@ -63,10 +82,16 @@
       flex-direction: row;
       justify-content: space-between;
       width: 650px;
-      left: 20px;
+      // margin-left: 20px;
     }
     .resume__items{
-      padding-bottom: 20px;
+      padding-bottom: 15px;
+    }
+
+    .resume__skills{
+      p{
+        margin-bottom: 10px;
+      }
     }
   }
 }
