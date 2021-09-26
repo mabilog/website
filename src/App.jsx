@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import Resume from './components/Resume.jsx';
 import Projects from './components/Projects.jsx';
-import Contact from './components/Contact.jsx';
+// import Contact from './components/Contact.jsx';
 import Sidebar from './components/Sidebar.jsx';
 
 import ProjectData from './components/ProjectData/ProjectData.jsx';
@@ -21,7 +21,7 @@ const [menu, setMenu] = useState(false);
         <Home/>
         <Projects slide={ProjectData}/>
         <Resume/>
-        <Contact/>
+        {/* <Contact/> */}
       </div>
     </div>
   );

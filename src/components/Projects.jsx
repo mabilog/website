@@ -38,7 +38,11 @@ const Projects = ({ slide }) => {
         return(
         <div className={index === current ? 'slide active' : 'slide'} key={index}>
          {index === current && (
-           <img src={slide.image} alt={slide.id} />
+           <div className="project__wrapper">
+            <img src={slide.image} alt={slide.id} className="project__image"/>
+            <a href={slide.url} target="_blank" className="project__link" rel="noreferrer">github</a>
+           </div>
+           
          )}
 
         </div>
