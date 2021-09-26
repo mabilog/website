@@ -1,13 +1,13 @@
 import React from 'react'
 import './home.scss'
-
+import angelo1x1 from './ProjectData/picture/angelo1x1.jpg'
 import Socials from './Socials';
 
 const Home = () => {
   return (
     <div className="home" id='home'>
       <div className="center">
-        <img src="assets/angelo1x1.jpg" alt="angelo" />
+        <img src={angelo1x1} alt="angelo" />
         <div className="center__right">
           <h2>Hi, I'm </h2>
           <h1>Angelo</h1>

@@ -35,21 +35,33 @@
     transition: all 1s ease;
     transform: scale(.92);
 
+    // .project__wrapper{
+    //     position: relative;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     flex-direction: column;
+      
+    // }
     img{
-    height: calc(100vh - 110px);
-    border-radius: 15px;
-    transition: all .5s ease;
+        max-height: calc(100vh - 110px);
+        border-radius: 15px;
+        transition: all .5s ease;
+        
+      }
     &:hover{
-      transform: scale(1);
-      height: calc(100vh - 75px);
-    }
-    }
+        transform: scale(1.01);
+        // max-height: calc(100vh - 75px);
+      }
+
   }
   .slide.active {
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1);
   }
+
+  
 }
 
 @media screen and (max-width: $breakpointmobile){

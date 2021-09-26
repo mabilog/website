@@ -33,9 +33,14 @@ import omdb from './projects/OMDB.png'
 import shoppingcart from './projects/Shopping cart.png'
 const ProjectData = [
   {
-    image: google,
-    id: 'Google',
-    url: 'https://mabilog.github.io/google-homepage/'
+    image: recipe123,
+    id: 'Recipe123',
+    url: 'https://mabilog.github.io/123recipe/'
+  },
+  {
+    image: etchASketch,
+    id: 'Etch-A-Sketch',
+    url: 'https://mabilog.github.io/etch-a-sketch/'
   },
   {
     image: omdb,
@@ -48,15 +53,9 @@ const ProjectData = [
     url: 'https://mabilog.github.io/shopping-cart/'
   },
   {
-    image: etchASketch,
-    id: 'Etch-A-Sketch',
-    url: 'https://mabilog.github.io/etch-a-sketch/'
-
-  },
-  {
-    image: recipe123,
-    id: 'Recipe123',
-    url: 'https://mabilog.github.io/123recipe/'
+    image: google,
+    id: 'Google',
+    url: 'https://mabilog.github.io/google-homepage/'
   },
 ]
 
