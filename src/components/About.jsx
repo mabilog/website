@@ -15,6 +15,7 @@ const About = () => {
       <p>However, when the pandemic forced everyone to adjust their whole lives, it forced me to steer in a different direction. I took a break from developping and helped my family to weather out the storm until everything stablizes. </p>
       <p>After my hiatus from building websites, I got back to my initial goal to become a full fledged web developer! </p>
       <p>Being a web developer is my ultimate goal. I may not be the best at what I am doing but I know that through hard work and determination, I believe I can make my dream into reality! </p>
+      <p id="reach_out">If you want to reach out and say hi, click on my links! I would really love to hear from you!</p>
     </div>
   )
 }
