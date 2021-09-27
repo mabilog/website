@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="about">
       <p>Hi, 
-        My name is <span id="name">Gabriel <em>Angelo</em> Mabilog</span>
+        My name is <span id="name">Gabriel Angelo Mabilog</span>
       </p>
       <p>I am an aspiring web developer looking for new and exciting opportunities in the world of developers. </p>
       <p>My journey to becoming a web developer is a little all over the place.
@@ -15,7 +15,7 @@ const About = () => {
       <p>When the COVID-19 pandemic hit, it forced me to steer in a different direction. I had to take a break from developing and help my family to weather out the storm until everything stablizes. </p>
       <p>After my hiatus from building websites, I got back to my initial goal to become a full fledged web developer! </p>
       <p>Being a web developer is my ultimate goal. There are still a lot of areas for growth but I know that through hard work and determination, I will be able to make my dream into reality! </p>
-      <p id="reach_out">If you want to reach out and say hi, please feel free to check out my links! I would really love to hear from you!</p>
+      <p>If you want to reach out and say hi, please feel free to check out my links! I would really love to hear from you!</p>
     </div>
   )
 }

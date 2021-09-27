@@ -48,15 +48,16 @@
       color: inherit;
       margin-top: 15px;
       width: max-content;
-      border: 3px solid blue;
+      border: 3px solid #E0D268;
       border-radius: 5px;
       color: $mainColor;
       font-weight: 700;
       padding: 10px;
       transition: .5s ease;
       &:hover{
-        background-color: blue;
-        color:$textColor;
+        border: 3px solid #E9B841;
+        background-color: #E9B841;
+        color:#fff;
       }
     }
  }

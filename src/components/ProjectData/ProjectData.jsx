@@ -1,4 +1,4 @@
-import recipe123 from './projects/123 Recipes.png'
+import recipe123 from './projects/recipe.png'
 import etchASketch from './projects/etch-a-sketch.png'
 import google from './projects/google recreation.png'
 import omdb from './projects/OMDB.png'
