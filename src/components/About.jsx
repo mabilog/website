@@ -14,7 +14,7 @@ const About = () => {
       <p>In the beginning of 2020, I enrolled in <b>Concordia Bootcamp</b> to help challenge my learning to the next level. </p>
       <p>When the COVID-19 pandemic hit, it forced me to steer in a different direction. I had to take a break from developing and help my family to weather out the storm until everything stablizes. </p>
       <p>After my hiatus from building websites, I got back to my initial goal to become a full fledged web developer! </p>
-      <p>Being a web developer is my ultimate goal. There are still a lot of areas for growth but I know that through hard work and determination, I believe I can make my dream into reality! </p>
+      <p>Being a web developer is my ultimate goal. There are still a lot of areas for growth but I know that through hard work and determination, I will be able to make my dream into reality! </p>
       <p id="reach_out">If you want to reach out and say hi, please feel free to check out my links! I would really love to hear from you!</p>
     </div>
   )
