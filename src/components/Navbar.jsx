@@ -24,6 +24,7 @@ const Navbar = ({menu, setMenu}) => {
         <div className="right ">
             <a href="#projects"  className="sidebar__link" >Projects</a>
             <a href="#resume" className="sidebar__link" >Resume</a>
+            <a href="#about" className="sidebar__link" >About</a>
             {/* <a href="#contact"  className="sidebar__link" >Contact</a> */}
         </div>
       </div>

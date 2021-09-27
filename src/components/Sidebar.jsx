@@ -19,6 +19,9 @@ const Sidebar = ({menu, setMenu}) => {
         <li>
           <a href="#contact"  className="sidebar__link" onClick={handleClick}>Contact</a>
         </li>
+        <li>
+          <a href="#about" className="sidebar__link" onClick={handleClick}>About</a>
+        </li>
       </ul>
     </div>
   )
