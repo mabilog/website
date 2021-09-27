@@ -22,9 +22,9 @@ const Navbar = ({menu, setMenu}) => {
         <CloseIcon className={"icon"} onClick={handleClick}/> 
         )}
         <div className="right ">
+            <a href="#about" className="sidebar__link" >About</a>
             <a href="#projects"  className="sidebar__link" >Projects</a>
             <a href="#resume" className="sidebar__link" >Resume</a>
-            <a href="#about" className="sidebar__link" >About</a>
             {/* <a href="#contact"  className="sidebar__link" >Contact</a> */}
         </div>
       </div>

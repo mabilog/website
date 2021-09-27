@@ -20,9 +20,9 @@ const [menu, setMenu] = useState(false);
       <Sidebar menu={menu} setMenu={setMenu}/>
       <div className="sections">
         <Home/>
+        <About/>
         <Projects slide={ProjectData}/>
         <Resume/>
-        <About/>
         {/* <Contact/> */}
       </div>
     </div>
