@@ -22,7 +22,7 @@ const Resume = () => {
 
         <div className="resume__content">
           <div className="resume__title resume__items">
-            <h3>Junior Full Stack Web Developper</h3>
+            <h3>Junior Full Stack Web Developer</h3>
             <p>Focus on Desktop and Mobile Applications</p>
           </div>
 
